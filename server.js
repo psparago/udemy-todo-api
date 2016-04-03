@@ -99,7 +99,7 @@ app.put('/todos/:id',
 
 
 		_.extend(matchedTodo, validatedAttributes);
-		res.status(200).json(matchedTodo);
+		res.json(matchedTodo);
 	}
 );
 
